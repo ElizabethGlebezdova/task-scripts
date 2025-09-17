@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "target": "ES2019",
+        "module": "commonjs",
+        "strict": true,
+        "noEmit": true,
+        "skipLibCheck": true,
+
+        "esModuleInterop": true, // важно для `import path from 'path'`
+        "allowJs": true // чтобы ts-jest спокойно видел .js тест
+    },
+    "include": ["src"]
+}
